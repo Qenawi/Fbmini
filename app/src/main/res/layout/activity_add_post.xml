@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#c3c9c3"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.qenawi.fbmini.AddPost"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="POST" />
+    <EditText
+        android:background="#d8d9d8"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:id="@+id/post_edit_text"
+        android:scrollbars="vertical|horizontal"
+        android:layout_height="282dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit" />
+</LinearLayout>

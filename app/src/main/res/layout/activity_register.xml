@@ -1,0 +1,95 @@
+<?xml
+    version="1.0"
+    encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.qenawi.fbmini.Register"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:gravity="center"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/input_Email"
+        android:hint="Email"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/input_password"
+        android:hint="Password"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/input_confirm_password"
+        android:hint="Age"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/input_address"
+        android:hint="Address"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/input_mobile"
+        android:hint="Mobile"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="Create_Account"
+        android:id="@+id/create_btn"
+        android:text="Create"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="Cancel"
+        android:id="@+id/cancel_btn"
+        android:text="Cancel"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
